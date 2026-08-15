@@ -1,1 +1,204 @@
 
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 15 Años - Daniela</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="[https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css)" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="[https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&display=swap](https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Montserrat:wght@300;400;600&display=swap)" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="[https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css)">
+    <link rel="stylesheet" href="estilos.css">   
+
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <!-- SVG Caballo Silueta Dorado -->
+            <svg class="horse-icon" viewBox="0 0 512 512" xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)">
+                <path d="M374.2 121c-22.1-23.7-53.5-35.9-88-41.5-12.7-2-25.7-4.1-39.2-4.1-21 0-41.1 5.9-57.1 14.7-18.7 10.3-33.8 25.5-44.1 44.1-8.8 16-14.7 36.1-14.7 57.1 0 13.5 2.1 26.5 4.1 39.2 5.6 34.5 17.8 65.9 41.5 88 23.7 22.1 53.5 35.9 88 41.5 12.7 2 25.7 4.1 39.2 4.1 21 0 41.1-5.9 57.1-14.7 18.7-10.3 33.8-25.5 44.1-44.1 8.8-16 14.7-36.1 14.7-57.1 0-13.5-2.1-26.5-4.1-39.2-5.6-34.5-17.8-65.9-41.5-88zm-30.8 155.6c-13.6 12.7-31.2 21.6-51.2 24.8-9.4 1.5-18.9 2.8-28.5 2.8-14.9 0-29.3-3.7-41-10.2-12.2-6.7-22.1-16.6-28.8-28.8-6.5-11.7-10.2-26.1-10.2-41 0-9.6 1.3-19.1 2.8-28.5 3.2-20 12.1-37.6 24.8-51.2 12.7-13.6 31.2-21.6 51.2-24.8 9.4-1.5 18.9-2.8 28.5-2.8 14.9 0 29.3 3.7 41 10.2 12.2 6.7 22.1 16.6 28.8 28.8 6.5 11.7 10.2 26.1 10.2 41 0 9.6-1.3 19.1-2.8 28.5-3.2 20-12.1 37.6-24.8 51.2z"/>
+            </svg>
+            <h1 class="display-1 mb-3">Daniela</h1>
+            <h3 class="fw-light mb-4 text-white">MIS 15 AÑOS</h3>
+            <p class="lead text-uppercase tracking-widest">Sábado 12 de Septiembre</p>
+        </div>
+    </header>
+
+    <!-- Cuenta Regresiva -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Faltan</h2>
+            <div class="row justify-content-center g-3" id="countdown-timer">
+                <div class="col-6 col-md-2"><div class="countdown-box"><div class="countdown-number" id="days">00</div><div>Días</div></div></div>
+                <div class="col-6 col-md-2"><div class="countdown-box"><div class="countdown-number" id="hours">00</div><div>Horas</div></div></div>
+                <div class="col-6 col-md-2"><div class="countdown-box"><div class="countdown-number" id="minutes">00</div><div>Min</div></div></div>
+                <div class="col-6 col-md-2"><div class="countdown-box"><div class="countdown-number" id="seconds">00</div><div>Seg</div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Itinerario -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Itinerario del Evento</h2>
+            <div class="row g-4">
+                <!-- Misa -->
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <i class="bi bi-shop fs-1" style="color: var(--gold);"></i>
+                        <h4 class="font-title mt-3">Santa Misa</h4>
+                        <p class="text-muted mb-1">Parroquia Nuestra Señora de la Inmaculada Concepción</p>
+                        <p class="fw-bold">Hora: 4:00 PM</p>
+                    </div>
+                </div>
+                <!-- Transporte -->
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <i class="bi bi-bus-front fs-1" style="color: var(--gold);"></i>
+                        <h4 class="font-title mt-3">Transporte (Chiva)</h4>
+                        <p class="text-muted mb-1">Salida: Parque Principal (Frente al Templo)</p>
+                        <p class="fw-bold">Hora: 5:30 PM</p>
+                    </div>
+                </div>
+                <!-- Recepción -->
+                <div class="col-md-4">
+                    <div class="card card-custom p-4 text-center">
+                        <i class="bi bi-stars fs-1" style="color: var(--gold);"></i>
+                        <h4 class="font-title mt-3">Recepción</h4>
+                        <p class="text-muted mb-1">Salón de Eventos Toque de Ángel, Pácora</p>
+                        <p class="fw-bold">Hora: 7:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detalles (Dress code y Regalos) -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-5">
+                    <div class="dress-code-box h-100 shadow">
+                        <i class="bi bi-person-standing-dress fs-1 mb-3" style="color: var(--gold);"></i>
+                        <h3 class="mb-3">Código de Vestuario</h3>
+                        <h4 class="text-uppercase tracking-widest" style="color: var(--gold);">Total Black</h4>
+                        <p class="mt-3">Traje formal completamente de negro.</p>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="dress-code-box h-100 shadow" style="background-color: var(--pink-bg); color: var(--dark);">
+                        <i class="bi bi-envelope-heart fs-1 mb-3" style="color: var(--gold);"></i>
+                        <h3 class="mb-3">Regalos</h3>
+                        <h4 class="text-uppercase tracking-widest" style="color: var(--gold);">Lluvia de Sobres</h4>
+                        <p class="mt-3">El mejor regalo es tu presencia, pero si deseas tener un detalle conmigo, podrás depositarlo en el cofre el día del evento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Formulario -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6 bg-white p-5 rounded-4 shadow">
+                    <h2 class="text-center mb-4">Confirmar Asistencia</h2>
+                    <p class="text-center text-muted mb-4">Por favor, confirma tu asistencia antes del <strong>01 de Septiembre</strong>.</p>
+                    
+                    <form id="rsvpForm">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="nombre" name="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="asistencia" class="form-label">¿Asistirás?</label>
+                            <select class="form-select" id="asistencia" name="Asistencia" required>
+                                <option value="" selected disabled>Selecciona una opción...</option>
+                                <option value="Sí asistiré">Sí, asistiré con gusto</option>
+                                <option value="No podré asistir">Lo siento, no podré asistir</option>
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label for="mensaje" class="form-label">Mensaje para Daniela (Opcional)</label>
+                            <textarea class="form-control" id="mensaje" name="Mensaje" rows="3"></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-gold rounded-pill" id="btnSubmit">Enviar Confirmación</button>
+                        </div>
+                        <div id="formStatus" class="mt-3 text-center d-none"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 text-muted">
+        <small>&copy; 2026 Mis 15 Años Daniela. Todos los derechos reservados.</small>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="[https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js](https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js)"></script>
+    
+    <!-- Lógica de App -->
+    <script>
+        // 1. Lógica de la Cuenta Regresiva
+        const fechaEvento = new Date("Sept 12, 2026 16:00:00").getTime();
+
+        const x = setInterval(function() {
+            const ahora = new Date().getTime();
+            const distancia = fechaEvento - ahora;
+
+            const dias = Math.floor(distancia / (1000 * 60 * 60 * 24));
+            const horas = Math.floor((distancia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutos = Math.floor((distancia % (1000 * 60 * 60)) / (1000 * 60));
+            const segundos = Math.floor((distancia % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = dias < 10 ? "0"+dias : dias;
+            document.getElementById("hours").innerHTML = horas < 10 ? "0"+horas : horas;
+            document.getElementById("minutes").innerHTML = minutos < 10 ? "0"+minutos : minutos;
+            document.getElementById("seconds").innerHTML = segundos < 10 ? "0"+segundos : segundos;
+
+            if (distancia < 0) {
+                clearInterval(x);
+                document.getElementById("countdown-timer").innerHTML = "<h3 class='text-center w-100'>¡Hoy es el gran día!</h3>";
+            }
+        }, 1000);
+
+        // 2. Lógica del Envío del Formulario (Conexión a Google Sheets)
+        // REEMPLAZAR ESTA URL CON LA QUE TE GENERE GOOGLE APPS SCRIPT
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyejy1QaTnJq4-OShAwSNBfq2wIhwvrGUUfRhs9fFLgaeAbIXcuKiIcLE0W3VLYx9WV/exec';
+        const form = document.getElementById('rsvpForm');
+        const btnSubmit = document.getElementById('btnSubmit');
+        const formStatus = document.getElementById('formStatus');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            btnSubmit.disabled = true;
+            btnSubmit.innerHTML = '<span class="spinner-border spinner-border-sm"></span> Enviando...';
+            
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    formStatus.classList.remove('d-none', 'text-danger');
+                    formStatus.classList.add('text-success');
+                    formStatus.innerHTML = '¡Gracias! Tu confirmación ha sido guardada.';
+                    form.reset();
+                    btnSubmit.innerHTML = 'Enviar Confirmación';
+                    btnSubmit.disabled = false;
+                })
+                .catch(error => {
+                    formStatus.classList.remove('d-none', 'text-success');
+                    formStatus.classList.add('text-danger');
+                    formStatus.innerHTML = 'Hubo un error. Por favor intenta de nuevo.';
+                    btnSubmit.innerHTML = 'Enviar Confirmación';
+                    btnSubmit.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
